@@ -1,0 +1,2 @@
+## 04-04:
+FastQC run on DNA_trimmed samples.
