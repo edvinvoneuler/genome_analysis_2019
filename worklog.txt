@@ -8,3 +8,5 @@ Started working on batch script for DNA assembly. Problems with paths using SBAT
 ## 04-05
 
 Kept working on the assembly script, tried using absolute paths instead of relative paths.
+
+Re-ran FastQC on the RNA after it had been separated into forward and reverse reads.
