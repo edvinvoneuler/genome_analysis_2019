@@ -10,6 +10,6 @@
 # Load modules
 module load bioinfo-tools megahit/1.1.2
 
-# megahit -1 ~/genome_analysis_2019/data/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz -2 ~/genome_analysis_2019/data/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz -o ~/genome_analysis_2019/data/assembly
+megahit -1 ~/genome_analysis_2019/data/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz -2 ~/genome_analysis_2019/data/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz -o ~/genome_analysis_2019/data/assembly
 
 megahit -1 ~/genome_analysis_2019/data/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz -2 ~/genome_analysis_2019/data/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz -o ~/genome_analysis_2019/data/assembly_33
