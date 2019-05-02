@@ -21,7 +21,7 @@ Assembly done.
 
 ## 04-11 
 
-inspecting assembly
+inspecting assembly/ starting binning
 
 ## 04-12
 Binning done
