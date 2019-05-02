@@ -29,3 +29,7 @@ Binning done
 ## 04-24 and 25
 
 Sick.
+
+## 05-02
+
+Realized i had made the wrong assembly (two separate instead of one). Also made a script for CheckM for later when I the assembly is done.
