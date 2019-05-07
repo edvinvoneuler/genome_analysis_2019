@@ -12,6 +12,6 @@ module load bioinfo-tools megahit/1.1.2
 
 
 
-megahit --kmin-1pass -1 /home/edvo1850/genome_analysis_2019/data/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz,/home/edvo1850/genome_analysis_2019/data/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz\
+megahit --kmin-1pass -t 2 -1 /home/edvo1850/genome_analysis_2019/data/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz,/home/edvo1850/genome_analysis_2019/data/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz\
  -2 /home/edvo1850/genome_analysis_2019/data/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz,/home/edvo1850/genome_analysis_2019/data/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz\
  -o /home/edvo1850/genome_analysis_2019/data/assembly_combined
