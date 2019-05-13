@@ -33,3 +33,11 @@ Sick.
 ## 05-02
 
 Realized i had made the wrong assembly (two separate instead of one). Also made a script for CheckM for later when I the assembly is done.
+
+## 05 - 13
+
+I've restarded the assembly from scratch as I realized that I had been working with two separate assemblies instead of one.
+I haf tried to bin them both into one set of bins but apparantly the software only read the first assembly.
+I've been keeping working with my "faulty" bins parallelly, so that I'm 100% that my scripts work and I can just keep running the joined assembly smoothly.
+
+So far the new assembly is binned and the old one has been run through prokka.
