@@ -1,5 +1,5 @@
 dir=/home/edvo1850/genome_analysis_2019/data/RNA_untrimmed/
-out_dir=/home/edvo1850/genome_analysis_2019/analyses/trimmomatic_results/
+out_dir=/home/edvo1850/genome_analysis_2019/analyses/01_preprocessing/trimmomatic_results
 
 java -jar $TRIMMOMATIC_HOME/trimmomatic.jar PE $dir/SRR4342139.1.fastq.gz $dir/SRR4342139.2.fastq.gz $out_dir/SRR4342139.1FP.fastq.gz \
 $out_dir/SRR4342139.1FU.fastq.gz $out_dir/SRR4342139.2FP.fastq.gz $out_dir/SRR4342139.2UP.fastq.gz \

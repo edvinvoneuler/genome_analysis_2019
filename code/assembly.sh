@@ -8,10 +8,10 @@
 #SBATCH --mail-user edvinvoneuler@gmail.com
 
 # Load modules
-module load bioinfo-tools megahit/1.1.2
-
+module load bioinfo-tools 
+module load megahit
 
 
 megahit --kmin-1pass -t 8 -1 /home/edvo1850/genome_analysis_2019/data/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz,/home/edvo1850/genome_analysis_2019/data/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz\
  -2 /home/edvo1850/genome_analysis_2019/data/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz,/home/edvo1850/genome_analysis_2019/data/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz\
- -o /home/edvo1850/genome_analysis_2019/data/assembly_combined_run
+ -o /home/edvo1850/genome_analysis_2019/data/assembly_combined_rerun

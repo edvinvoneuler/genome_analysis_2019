@@ -9,4 +9,8 @@
 
 module load bioinfo-tools
 module load MetaBat/2.12.1
-metabat -i genome_analysis_2019/data/assembly_complete_run/final.contigs.fa -o genome_analysis_2019/data/binning_complete/
+
+PATH = /home/edvo1850/genome_analysis_2019/data/
+
+metabat -i $PATH/assembly_combined/intermediate_contigs/k119.contigs.fa -o $PATH/data/binning/
+

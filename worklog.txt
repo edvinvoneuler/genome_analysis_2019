@@ -41,3 +41,13 @@ I haf tried to bin them both into one set of bins but apparantly the software on
 I've been keeping working with my "faulty" bins parallelly, so that I'm 100% that my scripts work and I can just keep running the joined assembly smoothly.
 
 So far the new assembly is binned and the old one has been run through prokka.
+
+## -05 -16
+
+During the week I ahve had problems with batch being completed but ourfiles being empty. final.contigs.fa from megahit was empty, and both checkM and metabat produced empty folders.
+The CheckM/Metabat was just due to the outfiles being without names and being named only .19.fa etc made them invisible.
+
+The Assembly not creating outfiles remains. the kMax iterations should be the same as the output file so I'm binning that. Also remved a bunch of files and trying one more assembly 
+to see if the problem magically solves itself the same way it magically appeared.
+
+Also hyper-ventilating into a paper bag.
