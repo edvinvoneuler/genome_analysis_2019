@@ -10,13 +10,13 @@
 # Load modules
 module load bioinfo-tools prokka
 
-for i in $(seq 27)
+for i in $(seq 55)
 do
 
-        if [ $i = 11 ] || [ $i = 20 ] || [ $i = 9 ]
+        if [ $i = 23 ] || [ $i = 15 ] || [ $i = 8 ] || [ $i = 20 ]
         then
-        prokka --kingdom Archaea /home/edvo1850/genome_analysis_2019/data/binning/binning_$i.fa --outdir /home/edvo1850/genome_analysis_2019/analyses/05_annotation --force
+        prokka --kingdom Archaea /home/edvo1850/genome_analysis_2019/data/binning_rerun/bin$i.fa --outdir /home/edvo1850/genome_analysis_2019/analyses/05_annotation --force
         else
-                prokka /home/edvo1850/genome_analysis_2019/data/binning/binning_$i.fa --outdir /home/edvo1850/genome_analysis_2019/analyses/05_annotation --force
+                prokka /home/edvo1850/genome_analysis_2019/data/binning_rerun/bin$i.fa --outdir /home/edvo1850/genome_analysis_2019/analyses/05_annotation --force
         fi
 done

@@ -51,3 +51,5 @@ The Assembly not creating outfiles remains. the kMax iterations should be the sa
 to see if the problem magically solves itself the same way it magically appeared.
 
 Also hyper-ventilating into a paper bag.
+
+I run bwa to map reads to concatenation of the two original separate assemblies in an attempt to run runMetaBat.sh who needs bam files for binning.

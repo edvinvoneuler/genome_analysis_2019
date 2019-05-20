@@ -12,4 +12,4 @@ module load bioinfo-tools
 module load CheckM
 
 
-checkm lineage_wf -t 5 -x fa --reduced_tree /home/edvo1850/genome_analysis_2019/data/binning /home/edvo1850/genome_analysis_2019/analyses/checkM
+checkm lineage_wf -t 4 -x fa --reduced_tree /home/edvo1850/genome_analysis_2019/data/binning_rerun /home/edvo1850/genome_analysis_2019/analyses/checkM
