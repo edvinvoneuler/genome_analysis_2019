@@ -60,3 +60,7 @@ Assembly magically worked during weekend for some reason, the fancy assemblies w
 ran the rest of the pipeline the last couple of days (Binning, assembly evaluation, binning evaluation and annotation.)
 
 Working on BWA scripts to map RNA to the bins.
+
+## 05 -22
+
+RNA mapping done. Looking into phylophlan
