@@ -8,6 +8,6 @@
 #SBATCH --mail-user edvinvoneuler@gmail.com
 
 # Load modules
-module load  bioinfo-tools phylophlan/0.99 python/3.7.2 biopython/1.73-py3 FastTree/2.1.10 muscle/3.8.1551 usearch/5.2.32
+module load  bioinfo-tools python biopython FastTree/2.1.10 muscle/3.8.1551 usearch/5.2.32 phylophlan
 
-./phylophlan.py -t --nproc 4 -i  ~/genome_analysis_2019/phylophlan/input/prokka_faa
+phylophlan.py -t --nproc 4 -i  prokka_faa
