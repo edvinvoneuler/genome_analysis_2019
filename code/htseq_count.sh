@@ -11,7 +11,9 @@ module load bioinfo-tools htseq
 
 aln=/home/edvo1850/genome_analysis_2019/data/rna_mapping
 gff=/home/edvo1850/genome_analysis_2019/analyses/05_annotation
+out=/home/edvo1850/genome_analysis_2019/analyses/06_read_count
 
 for bin in bin49 bin16 bin29 bin45 bin11 bin54 bin26 bin15 bin33 bin18 bin53 bin41 bin8 bin6 bin5 bin48 bin4 bin50
 do
-	htseq-count ${aln}/${bin}_map_SRR4342137_sorted.bam  ${aln}/${bin}_map_SRR4342139_sorted.bam ${gff}/${bin}/PROKKA_05242019.gff -o $bin
+	htseq-count -f bam -r pos -t CDS -i ID ${aln}/${bin}_map_SRR4342137_sorted.bam  ${aln}/${bin}_map_SRR4342139_sorted.bam ${gff}/${bin}/PROKKA_05242019_noseq.gff > ${out}/${bin}_count.out
+done

@@ -15,8 +15,8 @@ do
 
         if [ $i = 23 ] || [ $i = 15 ] || [ $i = 8 ] || [ $i = 20 ]
         then
-        prokka --kingdom Archaea /home/edvo1850/genome_analysis_2019/data/binning_rerun/bin$i.fa --outdir /home/edvo1850/genome_analysis_2019/analyses/05_annotation --force
+        prokka --kingdom Archaea /home/edvo1850/genome_analysis_2019/data/binning_rerun/bin$i.fa --outdir /home/edvo1850/genome_analysis_2019/analyses/05_annotation/bin_$i --force
         else
-                prokka /home/edvo1850/genome_analysis_2019/data/binning_rerun/bin$i.fa --outdir /home/edvo1850/genome_analysis_2019/analyses/05_annotation --force
+                prokka /home/edvo1850/genome_analysis_2019/data/binning_rerun/bin$i.fa --outdir /home/edvo1850/genome_analysis_2019/analyses/05_annotation/bin_$i --force
         fi
 done
